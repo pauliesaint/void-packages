@@ -1,0 +1,21 @@
+# Template file for 'dub'
+pkgname=dub
+version=1.10.0
+revision=1
+makedepends="dmd libcurl-devel"
+depends="dmd libcurl"
+short_desc="Package and build management system for D"
+maintainer="Paul Sid <paulmsid@gmail.com>"
+license="MIT"
+homepage="https://github.com/dlang/dub"
+distfiles="https://github.com/dlang/dub/archive/v1.10.0.tar.gz>dub-${version}.tar.gz"
+checksum=@dc85e65d21dcc7fb31a5a7f1d795d65fde4e94cd352aa7de9cc9aca830a81658
+
+do_build() {
+	sh build.sh
+}
+
+do_install() {
+	vbin bin/dub
+	vlicense LICENSE
+}
