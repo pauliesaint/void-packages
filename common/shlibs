@@ -127,7 +127,7 @@ libGLESv2.so rpi-userland-0.0.0.0.20150907_1
 libbrcmEGL.so rpi-userland-20180103_2
 libbrcmGLESv2.so rpi-userland-20180103_2
 libbrcmOpenVG.so rpi-userland-20180103_2
-libwayland-egl.so.1 libwayland-egl-9.0.1_4
+libwayland-egl.so.1 wayland-1.15.0_4
 libGL.so.1 libGL-7.11_1
 libnvidia-ml.so.1 nvidia-libs-346.47_1 ignore
 libnvidia-ml.so.1 nvidia304-libs-304.00_1 ignore
@@ -175,7 +175,7 @@ libxfconf-0.so.2 xfconf-4.9.1_1
 libxfce4util.so.7 libxfce4util-4.12.1_1
 libxfce4panel-1.0.so.4 xfce4-panel-4.9.2_1
 libxfce4panel-2.0.so.4 xfce4-panel-4.12.0_1
-libgdbm.so.5 gdbm-1.14_1_1
+libgdbm.so.6 gdbm-1.16_1
 libgdbm_compat.so.4 gdbm-1.10_1_1
 libintl.so.8 gettext-libs-0.19.2_1
 libgnuintl.so.8 gettext-libs-0.19.2_1
@@ -1015,7 +1015,7 @@ libtirpc.so.3 libtirpc-1.0.2_1
 librpcsecgss.so.3 librpcsecgss-0.19_1
 libnfsidmap.so.0 libnfsidmap-0.24_1
 libbind9.so.160 bind-libs-9.11.3_1
-libdns.so.1100 bind-libs-9.11.3_1
+libdns.so.1102 bind-libs-9.11.4_1
 libirs.so.160 bind-libs-9.11.3_1
 libisc.so.169 bind-libs-9.11.3_1
 libisccc.so.160 bind-libs-9.11.3_1
@@ -2912,6 +2912,9 @@ libortp.so.13 ortp-1.0.2_1
 libsuperlu.so.5 superlu-5.2.1_1
 libgosu.so.0 gosu-0.12.0_1
 libyara.so.3 libyara-3.5.0_1
+libyaz_icu.so.5 yaz-5.23.1_1
+libyaz.so.5 yaz-5.23.1_1
+libyaz_server.so.5 yaz-5.23.1_1
 libgcab-1.0.so.0 gcab-0.7_1
 libappstream-glib.so.8 appstream-glib-0.6.13_1
 libappstream-builder.so.8 appstream-glib-0.6.13_1
