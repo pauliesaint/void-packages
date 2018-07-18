@@ -3,13 +3,12 @@ pkgname=GConf
 version=3.2.6
 revision=7
 build_style=gnu-configure
-configure_args="--without-openldap --enable-gtk --enable-defaults-service
- --disable-orbit --enable-gsettings-backend --disable-static --disable-gtk-doc-html
- $(vopt_enable gir introspection)"
+configure_args="--without-openldap --enable-gtk --disable-orbit --enable-gsettings-backend 
+	--disable-static --disable-gtk-doc-html $(vopt_enable gir introspection)"
 conf_files="/etc/gconf/2/path"
 hostmakedepends="automake libtool pkg-config gettext-devel intltool gtk-doc
  glib-devel gobject-introspection"
-makedepends="gtk+3-devel dbus-glib-devel polkit-devel libxml2-devel"
+makedepends="gtk+3-devel dbus-glib-devel libxml2-devel"
 depends="dconf"
 short_desc="A process-transparent configuration system"
 maintainer="Juan RP <xtraeme@voidlinux.eu>"
